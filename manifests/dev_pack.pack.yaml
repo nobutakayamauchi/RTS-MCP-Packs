@@ -6,3 +6,5 @@ provides:
 permissions:
   github: read
   slack: write
+supports_skills:
+  - weekly_dev_report
