@@ -1,0 +1,8 @@
+pack_id: dev_pack
+purpose: support development reporting and coordination workflows
+provides:
+  - github
+  - slack
+permissions:
+  github: read
+  slack: write
