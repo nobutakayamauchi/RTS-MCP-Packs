@@ -8,4 +8,5 @@ permissions:
   slack: write
 supports_skills:
   - weekly_dev_report
+  - issue_to_fix_pr
 usage_scope: development_reporting
