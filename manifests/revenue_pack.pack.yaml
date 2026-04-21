@@ -1,0 +1,9 @@
+pack_id: revenue_pack
+purpose: support revenue reporting and summarization workflows
+provides:
+  - stripe
+permissions:
+  stripe: read
+supports_skills:
+  - monthly_revenue_summary
+usage_scope: revenue_reporting
