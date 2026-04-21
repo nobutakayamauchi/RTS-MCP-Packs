@@ -1,0 +1,9 @@
+pack_id: research_pack
+purpose: support research and price monitoring workflows
+provides:
+  - playwright
+permissions:
+  playwright: read
+supports_skills:
+  - site_price_watch_with_screenshot
+usage_scope: research_monitoring
