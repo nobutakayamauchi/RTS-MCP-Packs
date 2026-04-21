@@ -1,0 +1,9 @@
+pack_id: knowledge_pack
+purpose: support knowledge retrieval and summarization workflows
+provides:
+  - notion
+permissions:
+  notion: read
+supports_skills:
+  - notion_knowledge_retrieval
+usage_scope: knowledge_retrieval
