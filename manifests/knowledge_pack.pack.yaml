@@ -2,8 +2,11 @@ pack_id: knowledge_pack
 purpose: support knowledge retrieval and summarization workflows
 provides:
   - notion
+  - slack
 permissions:
   notion: read
+  slack: read
 supports_skills:
   - notion_knowledge_retrieval
+  - slack_thread_summary
 usage_scope: knowledge_retrieval
