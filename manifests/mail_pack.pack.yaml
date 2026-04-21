@@ -1,0 +1,9 @@
+pack_id: mail_pack
+purpose: support email triage and summarization workflows
+provides:
+  - gmail
+permissions:
+  gmail: read
+supports_skills:
+  - important_mail_triage
+usage_scope: mail_triage
