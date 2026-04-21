@@ -10,4 +10,5 @@ supports_skills:
   - weekly_dev_report
   - issue_to_fix_pr
   - failed_build_to_patch_plan
+  - sentry_error_to_root_cause_report
 usage_scope: development_workflows
