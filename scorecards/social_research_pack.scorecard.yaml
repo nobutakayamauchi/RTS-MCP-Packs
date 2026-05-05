@@ -1,0 +1,10 @@
+pack_id: social_research_pack
+confirmed_facts:
+  - Skill manifests are not stored in this repository.
+  - Social publish permissions are intentionally not part of this pack.
+assumptions:
+  - signal_to_social_ideas, social_content_brief, and social_post_draft_review consume this pack in RTS-Skills-.
+unverified:
+  - Provider-specific rate limits and content policy mappings vary by environment.
+risks:
+  - Read-only social post access may be insufficient for some analysis workflows.

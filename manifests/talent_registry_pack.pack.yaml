@@ -1,0 +1,14 @@
+pack_id: talent_registry_pack
+purpose: declare external Talent Registry lookup, scorecard drafting, and promotion-log append capabilities
+provides:
+  - talent_registry.profiles
+  - talent_registry.scorecards
+  - talent_registry.promotion_log
+permissions:
+  talent_registry.profiles: read
+  talent_registry.scorecards: draft
+  talent_registry.promotion_log: append
+supports_skills:
+  - github_repo_intake
+  - skill_promotion_review
+usage_scope: talent_discovery_and_promotion_review

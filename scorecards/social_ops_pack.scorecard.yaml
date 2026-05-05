@@ -1,0 +1,10 @@
+pack_id: social_ops_pack
+confirmed_facts:
+  - social publish permission is excluded from this pack by design.
+  - analytics access is read-only in this pack declaration.
+assumptions:
+  - This pack may support downstream draft preparation and analytics review after social research workflows.
+unverified:
+  - Final publication gates are enforced by downstream systems.
+risks:
+  - Draft-only permissions may require complementary packs for end-to-end execution.

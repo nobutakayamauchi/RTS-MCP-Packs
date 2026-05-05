@@ -1,0 +1,13 @@
+pack_id: short_video_pack
+purpose: declare external short-video discovery and brief drafting capabilities
+provides:
+  - short_video.discovery
+  - short_video.metrics
+  - short_video.briefs
+permissions:
+  short_video.discovery: read
+  short_video.metrics: read
+  short_video.briefs: draft
+supports_skills:
+  - short_video_repurpose
+usage_scope: short_video_research_and_briefing

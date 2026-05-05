@@ -1,0 +1,10 @@
+pack_id: short_video_pack
+confirmed_facts:
+  - MCP server code and API keys must not be added in this repository.
+  - This pack is scoped to discovery, metrics read, and brief drafting intent.
+assumptions:
+  - short_video_repurpose consumes this pack in RTS-Skills-.
+unverified:
+  - Provider moderation and availability differences are managed externally.
+risks:
+  - Metric freshness may vary across short-video providers.

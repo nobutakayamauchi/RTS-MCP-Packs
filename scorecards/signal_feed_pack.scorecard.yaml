@@ -1,0 +1,10 @@
+pack_id: signal_feed_pack
+confirmed_facts:
+  - Signal Feed registry core is out of scope for this repository.
+  - Pack declarations are separate from runtime server implementations.
+assumptions:
+  - weekly_signal_digest and signal_to_social_ideas consume this pack in RTS-Skills-.
+unverified:
+  - Event retention guarantees and ordering semantics are defined outside this repo.
+risks:
+  - Upstream signal-source instability may reduce digest quality.

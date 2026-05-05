@@ -1,0 +1,10 @@
+pack_id: talent_registry_pack
+confirmed_facts:
+  - Talent Registry core must not be stored in this repository.
+  - This pack only declares external capability usage intent.
+assumptions:
+  - github_repo_intake and skill_promotion_review consume this pack in RTS-Skills-.
+unverified:
+  - Canonical Talent Registry schema and lifecycle ownership are managed elsewhere.
+risks:
+  - Append/draft boundaries may require stricter policy controls in runtime environments.

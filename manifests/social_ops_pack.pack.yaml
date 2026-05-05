@@ -1,0 +1,12 @@
+pack_id: social_ops_pack
+purpose: declare external social operations drafting and analytics review capabilities
+provides:
+  - social.content
+  - analytics.reports
+permissions:
+  social.content: draft
+  analytics.reports: read
+supports_skills:
+  - social_content_brief
+  - social_post_draft_review
+usage_scope: social_operations_preparation

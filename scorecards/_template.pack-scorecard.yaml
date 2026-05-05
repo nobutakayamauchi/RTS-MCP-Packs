@@ -1,0 +1,9 @@
+pack_id: template_pack
+confirmed_facts:
+  - fact_1
+assumptions:
+  - assumption_1
+unverified:
+  - unverified_item_1
+risks:
+  - risk_1

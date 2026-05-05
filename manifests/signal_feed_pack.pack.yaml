@@ -1,0 +1,14 @@
+pack_id: signal_feed_pack
+purpose: declare external signal-feed retrieval and annotation drafting capabilities
+provides:
+  - signal_feed.streams
+  - signal_feed.events
+  - signal_feed.annotations
+permissions:
+  signal_feed.streams: read
+  signal_feed.events: read
+  signal_feed.annotations: draft
+supports_skills:
+  - weekly_signal_digest
+  - signal_to_social_ideas
+usage_scope: external_signal_monitoring
