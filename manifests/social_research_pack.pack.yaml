@@ -1,0 +1,15 @@
+pack_id: social_research_pack
+purpose: declare external social research and memo drafting capabilities
+provides:
+  - social.search
+  - social.posts
+  - social.research_memos
+permissions:
+  social.search: read
+  social.posts: read
+  social.research_memos: draft
+supports_skills:
+  - signal_to_social_ideas
+  - social_content_brief
+  - social_post_draft_review
+usage_scope: social_signal_research

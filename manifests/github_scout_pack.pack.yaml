@@ -1,0 +1,17 @@
+pack_id: github_scout_pack
+purpose: declare external GitHub scouting capabilities for RTS-Skills- workflows
+provides:
+  - github.repositories
+  - github.issues
+  - github.pull_requests
+  - github.commits
+  - github.releases
+permissions:
+  github.repositories: read
+  github.issues: read
+  github.pull_requests: read
+  github.commits: read
+  github.releases: read
+supports_skills:
+  - github_repo_intake
+usage_scope: external_repo_research_and_intake
